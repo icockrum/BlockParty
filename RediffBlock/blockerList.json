@@ -909,7 +909,7 @@
   }
 }, {
   "trigger": {
-    "url-filter": "^[^:]+://+([^:/]+\\.)?images\\.taboola\\.com[:/]",
+    "url-filter": "^[^:]+://+([^:/]+\\.)?taboola\\.com[:/]",
     "url-filter-is-case-sensitive":true,
     "load-type" : ["third-party"]
   },
@@ -1928,4 +1928,262 @@
   "action": {
     "type": "block"
   }
-}]
+ },
+ 
+ 
+ {
+ "trigger": {
+ "url-filter": "latngux\\.min\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "mtr\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "identity-retargeting\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "krux-mobile-control\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?washingtonpost\\.com[:/]wp-stat/ad/loaders/latest/js/min/loader.min.js",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?cointent\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?tribdss\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?perfectmarket\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?ebz\\.io[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?teads\\.tv[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?sharethrough\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?5min\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?newrelic\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?taboolasyndication\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?nr-data\\.net[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?ntv\\.io[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?tagx\\.nytimes\\.io[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?tagx\\.nytimes\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?et\\.nytimes\\.io[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?meter-svc\\.nytimes\\.io[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?meter-svc\\.nytimes\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "comscore\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "EventTracker\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "hi-pri-render\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "streamsense\\.min\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?parsely\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?openx\\.net[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?sail-horizon\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.cdnslate\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }
+ 
+]
