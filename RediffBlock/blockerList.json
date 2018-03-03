@@ -1974,6 +1974,14 @@
  }
  }, {
  "trigger": {
+ "url-filter": "wp_mobile_secure\\.min\\.js",
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
  "url-filter": "^[^:]+://+([^:/]+\\.)?cointent\\.com[:/]",
  "url-filter-is-case-sensitive":true,
  "load-type" : ["third-party"]
@@ -2178,6 +2186,24 @@
  }, {
  "trigger": {
  "url-filter": "^[^:]+://+([^:/]+\\.)?ads\\.cdnslate\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?subscribe\\.washingtonpost\\.com[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?wpdigital\\.net[:/]",
  "url-filter-is-case-sensitive":true,
  "load-type" : ["third-party"]
  },
