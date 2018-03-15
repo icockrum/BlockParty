@@ -201,7 +201,7 @@
 				TargetAttributes = {
 					6B673C0B1B3DDBE9007CDD18 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = RDNT3AF97P;
+						DevelopmentTeam = YB2H58MK8M;
 						ProvisioningStyle = Automatic;
 					};
 					6B673C291B3DE345007CDD18 = {
@@ -392,10 +392,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RDNT3AF97P;
+				DEVELOPMENT_TEAM = YB2H58MK8M;
 				INFOPLIST_FILE = BlockParty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockParty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockPartyFork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -408,10 +408,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RDNT3AF97P;
+				DEVELOPMENT_TEAM = YB2H58MK8M;
 				INFOPLIST_FILE = BlockParty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockParty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockPartyFork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -421,9 +421,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = YB2H58MK8M;
 				INFOPLIST_FILE = RediffBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockParty.RediffBlock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockPartyFork.RediffBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -433,9 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = YB2H58MK8M;
 				INFOPLIST_FILE = RediffBlock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockParty.RediffBlock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.icockrum.apps.BlockPartyFork.RediffBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
