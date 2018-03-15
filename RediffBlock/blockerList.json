@@ -2425,6 +2425,33 @@
  }
  }, {
  "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?rpc-php\\.trafficfactory\\.biz[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?media\\.trafficfactory\\.biz[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
+ "url-filter": "^[^:]+://+([^:/]+\\.)?trafficfactory\\.biz[:/]",
+ "url-filter-is-case-sensitive":true,
+ "load-type" : ["third-party"]
+ },
+ "action": {
+ "type": "block"
+ }
+ }, {
+ "trigger": {
  "url-filter": "^[^:]+://+([^:/]+\\.)?wpdigital\\.net[:/]",
  "url-filter-is-case-sensitive":true,
  "load-type" : ["third-party"]
